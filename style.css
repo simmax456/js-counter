@@ -1,0 +1,64 @@
+:root {
+  --mainWhite: #f5f5f5;
+  --mainGreen: #126319;
+  --mainBlue: #0d2c54;
+  --lightBlue: #00a6ed;
+  --mainBlack: #333333;
+}
+
+.max-height {
+  min-height: 100vh;
+}
+
+a{
+  text-transform: none;
+  text-decoration: none;
+  color: var(--mainWhite);
+}
+
+h2{
+  margin-top: 1.2em;
+}
+
+body {
+  background: url("../img/mainBcg.jpg") center/cover fixed no-repeat;
+  color: var(--mainWhite);
+  text-align: center;
+  overflow: hidden;
+  text-transform: uppercase;
+
+}
+
+#main-container {
+  border: 0.1rem solid var(--mainWhite);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+  border-radius: 0.2rem;
+  width: 25em;
+  margin: auto;
+  margin-top: 3em;
+}
+
+#count {
+  color: var(--mainGreen);
+  font-size: 10rem;
+}
+
+#prevCount,
+#nextCount {
+  box-shadow: 0 0.2rem 0.5rem #000000e6;
+  margin-bottom: 5em;
+  background: var(--mainBlue);
+  text-transform: uppercase;
+  color: var(--mainWhite);
+  padding: 0.7em 1.3em;
+  border-radius: 0.4em;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+  background: var(--lightBlue);
+}
+
+.fa{
+  color: var(--mainBlack);
+}
